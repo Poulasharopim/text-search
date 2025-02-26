@@ -1,0 +1,12 @@
+<div class="search-container">
+    <h1>Search</h1>
+    <input type="text" class="search-bar" [(ngModel)]="searchTerm" placeholder="Search Here ..."/>
+    <div class="artical" *ngFor="let artical of articals">
+        <div class="title" [innerHTML]="highlightText(artical.title,searchTerm)">
+        </div>
+        <div class="date" [innerHTML]="highlightText(artical.date,searchTerm)">
+        </div>
+        <div class="desc" [innerHTML]="highlightText(artical.desc,searchTerm)">
+        </div>
+    </div>
+</div>

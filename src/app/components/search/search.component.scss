@@ -1,0 +1,39 @@
+::ng-deep{
+    body{
+        font-family: sans-serif;
+        .search-container{
+            width: 100%;
+            .search-bar{
+                width: 60%;
+                margin-bottom: 2rem;
+                height: 2rem;
+                border-radius: 5px;
+                border: 1px solid #888;
+                padding: 0 5px;
+            }
+            .artical{
+                width: 60%;
+                .highlight{
+                    background-color: rgb(194, 194, 97);
+                }
+                .title{
+                    margin-bottom: 1rem;
+                    margin-top: 1.5rem;
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #000;
+                }
+                .date{
+                    margin-bottom: 1rem;
+                    font-size: 18px;
+                    font-weight: normal;
+                    color: #888888;
+                }
+                .desc{
+                    padding-bottom: 1rem;
+                    border-bottom: 1px solid #ccc;
+                }
+            }
+        }
+    }
+}
